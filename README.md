@@ -91,8 +91,7 @@ Costo de compuertas: AND/OR de *k* entradas (k ≥ 2) cuenta 1; NOT = inversores
 
 ## Atribución de código e integridad académica
 Los algoritmos (parser, motor algebraico, Quine-McCluskey, Petrick, visualizador, validación y benchmark) se implementaron específicamente
-para este trabajo a partir de las definiciones de la bibliografía del informe; no se reutilizó código de terceros. El diseño y el código se
-elaboraron con asistencia de una herramienta de inteligencia artificial (Claude, de Anthropic); el equipo revisó, ejecutó y se responsabiliza del contenido.
+para este trabajo a partir de las definiciones de la bibliografía del informe; no se reutilizó código de terceros.
 Se usan la biblioteca estándar de Python y `matplotlib` (solo visualización). Las salidas y tiempos reportados provienen de ejecuciones reales (`resultados/`).
 
 ## Licencia
