@@ -1,10 +1,33 @@
 # Simplificador lógico con álgebra de Boole y mapas de Karnaugh
 
-**Universidad Peruana Cayetano Heredia (UPCH) · Facultad de Ciencias e Ingeniería · Ingeniería Informática**
-**Estructuras Discretas II (Sección G01 – 2026-II) · Grupo 06 – Tema 06**
-Asesor: Dr. Ing. CIP. Omar Felix Illesca Cangalaya
 
-Autores (orden alfabético): Bances Panaque, Jose Junior · Jimenez Ostos, Giacomo Renato · Ramirez Uriol, Ruben Moises Enmanuel · Romero Meza, Piero Cemei · Uscamayta Lazaro, Marx Stiven.
+# Universidad Peruana Cayetano Heredia (UPCH)
+
+**Facultad de Ciencias e Ingeniería**  
+**Carrera profesional:** Ingeniería Informática
+
+---
+
+## Información académica
+
+- **Curso:** Estructuras Discretas II
+- **Sección:** G01
+- **Periodo académico:** 2026-II
+- **Grupo:** 06
+- **Tema:** 06
+- **Asesor:** Dr. Ing. CIP. Omar Félix Illesca Cangalaya
+
+## Autores
+
+**Orden alfabético por apellido:**
+
+1. Bances Panaque, José Junior
+2. Jiménez Ostos, Giacomo Renato
+3. Ramírez Uriol, Rubén Moisés Enmanuel
+4. Romero Meza, Piero Cemei
+5. Uscamayta Lázaro, Marx Stiven
+
+---
 
 Herramienta de línea de comandos y biblioteca Python para simplificar funciones booleanas de 2 a 6 variables:
 
