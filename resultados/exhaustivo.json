@@ -1,0 +1,36 @@
+{
+ "qm_exhaustivo": [
+  {
+   "n": 3,
+   "funciones": 256,
+   "discrepancias": 0,
+   "segundos": 0.02
+  },
+  {
+   "n": 4,
+   "funciones": 65536,
+   "discrepancias": 0,
+   "segundos": 12.59
+  }
+ ],
+ "algebra_vs_qm": [
+  {
+   "n": 3,
+   "funciones_evaluadas": 255,
+   "equivalentes": 255,
+   "alcanza_minimo_literales": 255,
+   "no_alcanza": 0,
+   "exceso_medio_literales": 0,
+   "exceso_max": 0
+  },
+  {
+   "n": 4,
+   "funciones_evaluadas": 1500,
+   "equivalentes": 1500,
+   "alcanza_minimo_literales": 1361,
+   "no_alcanza": 139,
+   "exceso_medio_literales": 2.777,
+   "exceso_max": 6
+  }
+ ]
+}

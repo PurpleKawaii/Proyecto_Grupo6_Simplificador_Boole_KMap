@@ -1,0 +1,68 @@
+[
+ {
+  "n": 0,
+  "ley": "Expresión inicial",
+  "detalle": "",
+  "expresion": "A'B'C + A'BC + AB'C + ABC' + ABC"
+ },
+ {
+  "n": 1,
+  "ley": "Idempotencia",
+  "detalle": "X = X + X: se duplican A'B'C (×2), A'BC (×2), AB'C (×2), ABC (×3) para usarlos en más de una adyacencia",
+  "expresion": "A'B'C + A'BC + AB'C + ABC' + ABC + A'B'C + A'BC + AB'C + ABC + ABC"
+ },
+ {
+  "n": 2,
+  "ley": "Adyacencia",
+  "detalle": "A'B'C + A'BC = A'C(B + B') = A'C",
+  "expresion": "AB'C + ABC' + ABC + A'B'C + A'BC + AB'C + ABC + ABC + A'C"
+ },
+ {
+  "n": 3,
+  "ley": "Adyacencia",
+  "detalle": "A'B'C + AB'C = B'C(A + A') = B'C",
+  "expresion": "ABC' + ABC + A'BC + AB'C + ABC + ABC + A'C + B'C"
+ },
+ {
+  "n": 4,
+  "ley": "Adyacencia",
+  "detalle": "A'BC + ABC = BC(A + A') = BC",
+  "expresion": "ABC' + AB'C + ABC + ABC + A'C + B'C + BC"
+ },
+ {
+  "n": 5,
+  "ley": "Adyacencia",
+  "detalle": "AB'C + ABC = AC(B + B') = AC",
+  "expresion": "ABC' + ABC + A'C + B'C + BC + AC"
+ },
+ {
+  "n": 6,
+  "ley": "Adyacencia",
+  "detalle": "ABC' + ABC = AB(C + C') = AB",
+  "expresion": "A'C + B'C + BC + AC + AB"
+ },
+ {
+  "n": 7,
+  "ley": "Adyacencia",
+  "detalle": "A'C + AC = C(A + A') = C",
+  "expresion": "B'C + BC + AB + C"
+ },
+ {
+  "n": 8,
+  "ley": "Adyacencia",
+  "detalle": "B'C + BC = C(B + B') = C",
+  "expresion": "AB + C + C"
+ },
+ {
+  "n": 9,
+  "ley": "Idempotencia",
+  "detalle": "X + X = X (C repetido)",
+  "expresion": "AB + C"
+ },
+ {
+  "n": 10,
+  "ley": "Resultado",
+  "detalle": "forma SOP simplificada algebraicamente",
+  "expresion": "AB + C"
+ }
+]

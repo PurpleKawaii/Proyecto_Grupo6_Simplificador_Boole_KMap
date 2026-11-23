@@ -1,0 +1,953 @@
+[
+ {
+  "id": "1",
+  "nombre": "Normal, 3 variables",
+  "n": 3,
+  "entrada": "A'B'C + A'BC + AB'C + ABC' + ABC",
+  "nota": "Reducción clara con traza algebraica completa",
+  "minterminos": [
+   1,
+   3,
+   5,
+   6,
+   7
+  ],
+  "indiferentes": [],
+  "original": "A'B'C + A'BC + AB'C + ABC' + ABC",
+  "sop": "AB + C",
+  "pos": "(A + C)·(B + C)",
+  "num_primos": 2,
+  "num_esenciales": 2,
+  "usa_petrick": false,
+  "soluciones_minimas": 1,
+  "exacto": true,
+  "costo_original": {
+   "literales": 15,
+   "terminos": 5,
+   "and": 5,
+   "or": 1,
+   "not": 3,
+   "compuertas": 9
+  },
+  "costo_sop": {
+   "literales": 3,
+   "terminos": 2,
+   "and": 1,
+   "or": 1,
+   "not": 0,
+   "compuertas": 2
+  },
+  "costo_pos": {
+   "literales": 4,
+   "terminos": 2,
+   "and": 1,
+   "or": 2,
+   "not": 0,
+   "compuertas": 3
+  },
+  "red_literales_sop": 80.0,
+  "red_compuertas_sop": 77.8,
+  "red_literales_pos": 73.3,
+  "red_compuertas_pos": 66.7,
+  "valid_sop": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.024,
+  "primos": [
+   "C",
+   "AB"
+  ],
+  "esenciales": [
+   "C",
+   "AB"
+  ],
+  "alternativas": [
+   "AB + C"
+  ],
+  "cubos_sop": [
+   [
+    1,
+    6
+   ],
+   [
+    6,
+    1
+   ]
+  ]
+ },
+ {
+  "id": "2",
+  "nombre": "Normal, 4 variables toroidal",
+  "n": 4,
+  "entrada": "∑m(0,2,5,7,8,10,13,15)",
+  "nota": "Agrupamiento de las 4 esquinas envolventes",
+  "minterminos": [
+   0,
+   2,
+   5,
+   7,
+   8,
+   10,
+   13,
+   15
+  ],
+  "indiferentes": [],
+  "original": "A'B'C'D' + A'B'CD' + A'BC'D + A'BCD + AB'C'D' + AB'CD' + ABC'D + ABCD",
+  "sop": "B'D' + BD",
+  "pos": "(B + D')·(B' + D)",
+  "num_primos": 2,
+  "num_esenciales": 2,
+  "usa_petrick": false,
+  "soluciones_minimas": 1,
+  "exacto": true,
+  "costo_original": {
+   "literales": 32,
+   "terminos": 8,
+   "and": 8,
+   "or": 1,
+   "not": 4,
+   "compuertas": 13
+  },
+  "costo_sop": {
+   "literales": 4,
+   "terminos": 2,
+   "and": 2,
+   "or": 1,
+   "not": 2,
+   "compuertas": 5
+  },
+  "costo_pos": {
+   "literales": 4,
+   "terminos": 2,
+   "and": 1,
+   "or": 2,
+   "not": 2,
+   "compuertas": 5
+  },
+  "red_literales_sop": 87.5,
+  "red_compuertas_sop": 61.5,
+  "red_literales_pos": 87.5,
+  "red_compuertas_pos": 61.5,
+  "valid_sop": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.042,
+  "primos": [
+   "B'D'",
+   "BD"
+  ],
+  "esenciales": [
+   "B'D'",
+   "BD"
+  ],
+  "alternativas": [
+   "B'D' + BD"
+  ],
+  "cubos_sop": [
+   [
+    0,
+    10
+   ],
+   [
+    5,
+    10
+   ]
+  ]
+ },
+ {
+  "id": "3",
+  "nombre": "4 variables con indiferentes",
+  "n": 4,
+  "entrada": "∑m(1,3,7,11,15) + ∑d(0,2,5)",
+  "nota": "Reducción adicional gracias a X",
+  "minterminos": [
+   1,
+   3,
+   7,
+   11,
+   15
+  ],
+  "indiferentes": [
+   0,
+   2,
+   5
+  ],
+  "original": "A'B'C'D + A'B'CD + A'BCD + AB'CD + ABCD",
+  "sop": "A'B' + CD",
+  "pos": "(A' + C)·D",
+  "num_primos": 3,
+  "num_esenciales": 1,
+  "usa_petrick": true,
+  "soluciones_minimas": 2,
+  "exacto": true,
+  "costo_original": {
+   "literales": 20,
+   "terminos": 5,
+   "and": 5,
+   "or": 1,
+   "not": 3,
+   "compuertas": 9
+  },
+  "costo_sop": {
+   "literales": 4,
+   "terminos": 2,
+   "and": 2,
+   "or": 1,
+   "not": 2,
+   "compuertas": 5
+  },
+  "costo_pos": {
+   "literales": 3,
+   "terminos": 1,
+   "and": 1,
+   "or": 1,
+   "not": 1,
+   "compuertas": 3
+  },
+  "red_literales_sop": 80.0,
+  "red_compuertas_sop": 44.4,
+  "red_literales_pos": 85.0,
+  "red_compuertas_pos": 66.7,
+  "valid_sop": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": null,
+  "tiempo_ms": 0.075,
+  "primos": [
+   "A'B'",
+   "A'D",
+   "CD"
+  ],
+  "esenciales": [
+   "CD"
+  ],
+  "alternativas": [
+   "A'B' + CD",
+   "A'D + CD"
+  ],
+  "cubos_sop": [
+   [
+    0,
+    3
+   ],
+   [
+    3,
+    12
+   ]
+  ]
+ },
+ {
+  "id": "4",
+  "nombre": "Límite: tautología",
+  "n": 3,
+  "entrada": "∑m(0,…,7)",
+  "nota": "Todos 1 → 1",
+  "minterminos": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "indiferentes": [],
+  "original": "A'B'C' + A'B'C + A'BC' + A'BC + AB'C' + AB'C + ABC' + ABC",
+  "sop": "1",
+  "pos": "1",
+  "num_primos": 1,
+  "num_esenciales": 1,
+  "usa_petrick": false,
+  "soluciones_minimas": 1,
+  "exacto": true,
+  "costo_original": {
+   "literales": 24,
+   "terminos": 8,
+   "and": 8,
+   "or": 1,
+   "not": 3,
+   "compuertas": 12
+  },
+  "costo_sop": {
+   "literales": 0,
+   "terminos": 0,
+   "and": 0,
+   "or": 0,
+   "not": 0,
+   "compuertas": 0
+  },
+  "costo_pos": {
+   "literales": 0,
+   "terminos": 0,
+   "and": 0,
+   "or": 0,
+   "not": 0,
+   "compuertas": 0
+  },
+  "red_literales_sop": 100.0,
+  "red_compuertas_sop": 100.0,
+  "red_literales_pos": 100.0,
+  "red_compuertas_pos": 100.0,
+  "valid_sop": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.027,
+  "primos": [
+   "1"
+  ],
+  "esenciales": [
+   "1"
+  ],
+  "alternativas": [
+   "1"
+  ],
+  "cubos_sop": [
+   [
+    0,
+    7
+   ]
+  ]
+ },
+ {
+  "id": "5",
+  "nombre": "Límite: contradicción",
+  "n": 3,
+  "entrada": "∏M(0,…,7)",
+  "nota": "Todos 0 → 0",
+  "minterminos": [],
+  "indiferentes": [],
+  "original": "(A + B + C)·(A + B + C')·(A + B' + C)·(A + B' + C')·(A' + B + C)·(A' + B + C')·(A' + B' + C)·(A' + B' + C')",
+  "sop": "0",
+  "pos": "0",
+  "num_primos": 0,
+  "num_esenciales": 0,
+  "usa_petrick": false,
+  "soluciones_minimas": 1,
+  "exacto": true,
+  "costo_original": {
+   "literales": 24,
+   "terminos": 8,
+   "and": 1,
+   "or": 8,
+   "not": 3,
+   "compuertas": 12
+  },
+  "costo_sop": {
+   "literales": 0,
+   "terminos": 0,
+   "and": 0,
+   "or": 0,
+   "not": 0,
+   "compuertas": 0
+  },
+  "costo_pos": {
+   "literales": 0,
+   "terminos": 0,
+   "and": 0,
+   "or": 0,
+   "not": 0,
+   "compuertas": 0
+  },
+  "red_literales_sop": 100.0,
+  "red_compuertas_sop": 100.0,
+  "red_literales_pos": 100.0,
+  "red_compuertas_pos": 100.0,
+  "valid_sop": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.038,
+  "primos": [],
+  "esenciales": [],
+  "alternativas": [
+   ""
+  ],
+  "cubos_sop": []
+ },
+ {
+  "id": "6",
+  "nombre": "Límite: paridad XOR 4 var",
+  "n": 4,
+  "entrada": "∑m(1,2,4,7,8,11,13,14)",
+  "nota": "Tablero de ajedrez; irreducible",
+  "minterminos": [
+   1,
+   2,
+   4,
+   7,
+   8,
+   11,
+   13,
+   14
+  ],
+  "indiferentes": [],
+  "original": "A'B'C'D + A'B'CD' + A'BC'D' + A'BCD + AB'C'D' + AB'CD + ABC'D + ABCD'",
+  "sop": "A'B'C'D + A'B'CD' + A'BC'D' + A'BCD + AB'C'D' + AB'CD + ABC'D + ABCD'",
+  "pos": "(A + B + C + D)·(A + B + C' + D')·(A + B' + C + D')·(A + B' + C' + D)·(A' + B + C + D')·(A' + B + C' + D)·(A' + B' + C + D)·(A' + B' + C' + D')",
+  "num_primos": 8,
+  "num_esenciales": 8,
+  "usa_petrick": false,
+  "soluciones_minimas": 1,
+  "exacto": true,
+  "costo_original": {
+   "literales": 32,
+   "terminos": 8,
+   "and": 8,
+   "or": 1,
+   "not": 4,
+   "compuertas": 13
+  },
+  "costo_sop": {
+   "literales": 32,
+   "terminos": 8,
+   "and": 8,
+   "or": 1,
+   "not": 4,
+   "compuertas": 13
+  },
+  "costo_pos": {
+   "literales": 32,
+   "terminos": 8,
+   "and": 1,
+   "or": 8,
+   "not": 4,
+   "compuertas": 13
+  },
+  "red_literales_sop": 0.0,
+  "red_compuertas_sop": 0.0,
+  "red_literales_pos": 0.0,
+  "red_compuertas_pos": 0.0,
+  "valid_sop": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 16,
+   "coinciden": 16,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.045,
+  "primos": [
+   "A'B'C'D",
+   "A'B'CD'",
+   "A'BC'D'",
+   "A'BCD",
+   "AB'C'D'",
+   "AB'CD",
+   "ABC'D",
+   "ABCD'"
+  ],
+  "esenciales": [
+   "A'B'C'D",
+   "A'B'CD'",
+   "A'BC'D'",
+   "A'BCD",
+   "AB'C'D'",
+   "AB'CD",
+   "ABC'D",
+   "ABCD'"
+  ],
+  "alternativas": [
+   "A'B'C'D + A'B'CD' + A'BC'D' + A'BCD + AB'C'D' + AB'CD + ABC'D + ABCD'"
+  ],
+  "cubos_sop": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    7,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    13,
+    0
+   ],
+   [
+    14,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "7",
+  "nombre": "Límite: cobertura cíclica",
+  "n": 3,
+  "entrada": "∑m(0,1,2,5,6,7)",
+  "nota": "Sin primos esenciales; requiere Petrick",
+  "minterminos": [
+   0,
+   1,
+   2,
+   5,
+   6,
+   7
+  ],
+  "indiferentes": [],
+  "original": "A'B'C' + A'B'C + A'BC' + AB'C + ABC' + ABC",
+  "sop": "A'B' + AC + BC'",
+  "pos": "(A + B' + C')·(A' + B + C)",
+  "num_primos": 6,
+  "num_esenciales": 0,
+  "usa_petrick": true,
+  "soluciones_minimas": 2,
+  "exacto": true,
+  "costo_original": {
+   "literales": 18,
+   "terminos": 6,
+   "and": 6,
+   "or": 1,
+   "not": 3,
+   "compuertas": 10
+  },
+  "costo_sop": {
+   "literales": 6,
+   "terminos": 3,
+   "and": 3,
+   "or": 1,
+   "not": 3,
+   "compuertas": 7
+  },
+  "costo_pos": {
+   "literales": 6,
+   "terminos": 2,
+   "and": 1,
+   "or": 2,
+   "not": 3,
+   "compuertas": 6
+  },
+  "red_literales_sop": 66.7,
+  "red_compuertas_sop": 30.0,
+  "red_literales_pos": 66.7,
+  "red_compuertas_pos": 40.0,
+  "valid_sop": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 8,
+   "coinciden": 8,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.206,
+  "primos": [
+   "A'B'",
+   "A'C'",
+   "B'C",
+   "BC'",
+   "AC",
+   "AB"
+  ],
+  "esenciales": [],
+  "alternativas": [
+   "A'B' + AC + BC'",
+   "A'C' + AB + B'C"
+  ],
+  "cubos_sop": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    5,
+    2
+   ]
+  ]
+ },
+ {
+  "id": "8a",
+  "nombre": "Escalabilidad: 5 variables",
+  "n": 5,
+  "entrada": "∑m aleatorio (semilla 5, p=0,5)",
+  "nota": "Fuera del alcance visual del K-Map plano",
+  "minterminos": [
+   6,
+   7,
+   11,
+   12,
+   13,
+   16,
+   17,
+   18,
+   21,
+   23,
+   25,
+   26,
+   28,
+   29
+  ],
+  "indiferentes": [],
+  "original": "A'B'CDE' + A'B'CDE + A'BC'DE + A'BCD'E' + A'BCD'E + AB'C'D'E' + AB'C'D'E + AB'C'DE' + AB'CD'E + AB'CDE + ABC'D'E + ABC'DE' + ABCD'E' + ABCD'E",
+  "sop": "A'B'CD + A'BC'DE + AB'C'D' + AC'DE' + AD'E + B'CDE + BCD'",
+  "pos": "(A + B + C)·(A + B + D)·(A + C + D)·(A + C + E)·(A' + B + C' + E)·(A' + C + D' + E')·(B' + C + D + E)·(B' + C' + D')",
+  "num_primos": 9,
+  "num_esenciales": 5,
+  "usa_petrick": true,
+  "soluciones_minimas": 4,
+  "exacto": true,
+  "costo_original": {
+   "literales": 70,
+   "terminos": 14,
+   "and": 14,
+   "or": 1,
+   "not": 5,
+   "compuertas": 20
+  },
+  "costo_sop": {
+   "literales": 27,
+   "terminos": 7,
+   "and": 7,
+   "or": 1,
+   "not": 5,
+   "compuertas": 13
+  },
+  "costo_pos": {
+   "literales": 27,
+   "terminos": 8,
+   "and": 1,
+   "or": 8,
+   "not": 5,
+   "compuertas": 14
+  },
+  "red_literales_sop": 61.4,
+  "red_compuertas_sop": 35.0,
+  "red_literales_pos": 61.4,
+  "red_compuertas_pos": 30.0,
+  "valid_sop": {
+   "filas": 32,
+   "coinciden": 32,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 32,
+   "coinciden": 32,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 0.253,
+  "primos": [
+   "A'B'CD",
+   "B'CDE",
+   "A'BC'DE",
+   "BCD'",
+   "AB'C'D'",
+   "AB'C'E'",
+   "AD'E",
+   "AC'DE'",
+   "AB'CE"
+  ],
+  "esenciales": [
+   "A'B'CD",
+   "A'BC'DE",
+   "BCD'",
+   "AD'E",
+   "AC'DE'"
+  ],
+  "alternativas": [
+   "A'B'CD + A'BC'DE + AB'C'D' + AC'DE' + AD'E + B'CDE + BCD'",
+   "A'B'CD + A'BC'DE + AB'C'E' + AC'DE' + AD'E + B'CDE + BCD'",
+   "A'B'CD + A'BC'DE + AB'C'D' + AB'CE + AC'DE' + AD'E + BCD'",
+   "A'B'CD + A'BC'DE + AB'C'E' + AB'CE + AC'DE' + AD'E + BCD'"
+  ],
+  "cubos_sop": [
+   [
+    6,
+    1
+   ],
+   [
+    7,
+    16
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    16,
+    1
+   ],
+   [
+    17,
+    12
+   ],
+   [
+    18,
+    8
+   ]
+  ]
+ },
+ {
+  "id": "8b",
+  "nombre": "Escalabilidad: 6 variables",
+  "n": 6,
+  "entrada": "∑m aleatorio (semilla 6, p=0,5)",
+  "nota": "Fuera del alcance visual del K-Map plano",
+  "minterminos": [
+   2,
+   3,
+   4,
+   6,
+   8,
+   10,
+   13,
+   16,
+   19,
+   23,
+   24,
+   27,
+   28,
+   29,
+   31,
+   34,
+   36,
+   44,
+   45,
+   47,
+   49,
+   52,
+   54,
+   55,
+   56,
+   57,
+   58,
+   61,
+   63
+  ],
+  "indiferentes": [],
+  "original": "A'B'C'D'EF' + A'B'C'D'EF + A'B'C'DE'F' + A'B'C'DEF' + A'B'CD'E'F' + A'B'CD'EF' + A'B'CDE'F + A'BC'D'E'F' + A'BC'D'EF + A'BC'DEF + A'BCD'E'F' + A'BCD'EF + A'BCDE'F' + A'BCDE'F + A'BCDEF + AB'C'D'EF' + AB'C'DE'F' + AB'CDE'F' + AB'CDE'F + AB'CDEF + ABC'D'E'F + ABC'DE'F' + ABC'DEF' + ABC'DEF + ABCD'E'F' + ABCD'E'F + ABCD'EF' + ABCDE'F + ABCDEF",
+  "sop": "A'B'C'D'E + A'B'C'DF' + A'B'CD'F' + A'BCE'F' + A'BD'E'F' + A'BEF + AB'DE'F' + ABC'DF' + ABCD'F' + ABD'E'F + ACDF + B'C'D'EF' + BDEF + CDE'F",
+  "pos": "(A + B + C' + D' + F)·(A + B + C' + E' + F')·(A + B' + C + D' + E)·(A + B' + E' + F)·(A + D + E + F')·(A' + B + C' + D)·(A' + B + D' + E' + F)·(A' + B' + C + D + F)·(A' + B' + C' + D' + F)·(A' + D + E' + F')·(B + C + D + E)·(B + C + D' + F')·(C + D' + E + F')",
+  "num_primos": 27,
+  "num_esenciales": 7,
+  "usa_petrick": true,
+  "soluciones_minimas": 4,
+  "exacto": true,
+  "costo_original": {
+   "literales": 174,
+   "terminos": 29,
+   "and": 29,
+   "or": 1,
+   "not": 6,
+   "compuertas": 36
+  },
+  "costo_sop": {
+   "literales": 66,
+   "terminos": 14,
+   "and": 14,
+   "or": 1,
+   "not": 6,
+   "compuertas": 21
+  },
+  "costo_pos": {
+   "literales": 58,
+   "terminos": 13,
+   "and": 1,
+   "or": 13,
+   "not": 6,
+   "compuertas": 20
+  },
+  "red_literales_sop": 62.1,
+  "red_compuertas_sop": 41.7,
+  "red_literales_pos": 66.7,
+  "red_compuertas_pos": 44.4,
+  "valid_sop": {
+   "filas": 64,
+   "coinciden": 64,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "valid_pos": {
+   "filas": 64,
+   "coinciden": 64,
+   "discrepancias": [],
+   "equivalente": true
+  },
+  "equiv_original": true,
+  "tiempo_ms": 1.178,
+  "primos": [
+   "A'B'C'D'E",
+   "A'B'C'EF'",
+   "A'B'D'EF'",
+   "B'C'D'EF'",
+   "A'C'D'EF",
+   "A'B'C'DF'",
+   "B'C'DE'F'",
+   "A'B'CD'F'",
+   "A'CD'E'F'",
+   "CDE'F",
+   "A'BD'E'F'",
+   "A'BEF",
+   "BDEF",
+   "A'BCE'F'",
+   "BCD'E'F'",
+   "A'BCDE'",
+   "BCDF",
+   "AB'DE'F'",
+   "AC'DE'F'",
+   "AB'CDE'",
+   "ACDF",
+   "ABD'E'F",
+   "ABC'DF'",
+   "ABC'DE",
+   "ABCD'E'",
+   "ABCD'F'",
+   "ABCE'F"
+  ],
+  "esenciales": [
+   "CDE'F",
+   "A'BD'E'F'",
+   "A'BEF",
+   "B'C'D'EF'",
+   "ACDF",
+   "ABD'E'F",
+   "ABCD'F'"
+  ],
+  "alternativas": [
+   "A'B'C'D'E + A'B'C'DF' + A'B'CD'F' + A'BCE'F' + A'BD'E'F' + A'BEF + AB'DE'F' + ABC'DF' + ABCD'F' + ABD'E'F + ACDF + B'C'D'EF' + BDEF + CDE'F",
+   "A'B'C'D'E + A'B'C'DF' + A'B'CD'F' + A'BCDE' + A'BD'E'F' + A'BEF + AB'DE'F' + ABC'DF' + ABCD'F' + ABD'E'F + ACDF + B'C'D'EF' + BDEF + CDE'F",
+   "A'B'C'DF' + A'B'CD'F' + A'BCE'F' + A'BD'E'F' + A'BEF + A'C'D'EF + AB'DE'F' + ABC'DF' + ABCD'F' + ABD'E'F + ACDF + B'C'D'EF' + BDEF + CDE'F",
+   "A'B'C'DF' + A'B'CD'F' + A'BCDE' + A'BD'E'F' + A'BEF + A'C'D'EF + AB'DE'F' + ABC'DF' + ABCD'F' + ABD'E'F + ACDF + B'C'D'EF' + BDEF + CDE'F"
+  ],
+  "cubos_sop": [
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    32
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    13,
+    48
+   ],
+   [
+    16,
+    8
+   ],
+   [
+    19,
+    12
+   ],
+   [
+    23,
+    40
+   ],
+   [
+    24,
+    4
+   ],
+   [
+    36,
+    8
+   ],
+   [
+    45,
+    18
+   ],
+   [
+    49,
+    8
+   ],
+   [
+    52,
+    2
+   ],
+   [
+    56,
+    2
+   ]
+  ]
+ }
+]

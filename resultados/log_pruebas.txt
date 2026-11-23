@@ -1,0 +1,36 @@
+test_consenso (tests.test_simplificador.TestAlgebra.test_consenso) ... ok
+test_equivalencia_aleatoria (tests.test_simplificador.TestAlgebra.test_equivalencia_aleatoria) ... ok
+test_leyes_basicas (tests.test_simplificador.TestAlgebra.test_leyes_basicas) ... ok
+test_traza_caso1 (tests.test_simplificador.TestAlgebra.test_traza_caso1) ... ok
+test_benchmark_pequeno (tests.test_simplificador.TestCasosObligatorios.test_benchmark_pequeno) ... ok
+test_caso1 (tests.test_simplificador.TestCasosObligatorios.test_caso1) ... ok
+test_caso2 (tests.test_simplificador.TestCasosObligatorios.test_caso2) ... ok
+test_caso3_dc (tests.test_simplificador.TestCasosObligatorios.test_caso3_dc) ... ok
+test_caso4_5 (tests.test_simplificador.TestCasosObligatorios.test_caso4_5) ... ok
+test_caso6_paridad_cero_reduccion (tests.test_simplificador.TestCasosObligatorios.test_caso6_paridad_cero_reduccion) ... ok
+test_caso7_petrick (tests.test_simplificador.TestCasosObligatorios.test_caso7_petrick) ... ok
+test_caso8_escalabilidad (tests.test_simplificador.TestCasosObligatorios.test_caso8_escalabilidad) ... ok
+test_todos_validan_100_por_ciento (tests.test_simplificador.TestCasosObligatorios.test_todos_validan_100_por_ciento) ... ok
+test_esquinas_envolventes (tests.test_simplificador.TestKMap.test_esquinas_envolventes) ... ok
+test_exporta_png (tests.test_simplificador.TestKMap.test_exporta_png) ... ok
+test_no_soporta_5_var (tests.test_simplificador.TestKMap.test_no_soporta_5_var) ... ok
+test_orden_gray_4var (tests.test_simplificador.TestKMap.test_orden_gray_4var) ... ok
+test_expresion_a_minterminos (tests.test_simplificador.TestParser.test_expresion_a_minterminos) ... ok
+test_maxterminos_y_dc (tests.test_simplificador.TestParser.test_maxterminos_y_dc) ... ok
+test_rechazo_entradas_invalidas (tests.test_simplificador.TestParser.test_rechazo_entradas_invalidas) ... ok
+test_texto_listas (tests.test_simplificador.TestParser.test_texto_listas) ... ok
+test_xor_y_parentesis (tests.test_simplificador.TestParser.test_xor_y_parentesis) ... ok
+test_aleatorio_con_dc_n4_n5 (tests.test_simplificador.TestQM.test_aleatorio_con_dc_n4_n5) ... ok
+test_caso_normal_3var (tests.test_simplificador.TestQM.test_caso_normal_3var) ... ok
+test_cobertura_ciclica_petrick (tests.test_simplificador.TestQM.test_cobertura_ciclica_petrick) ... ok
+test_dontcare_reduce (tests.test_simplificador.TestQM.test_dontcare_reduce) ... ok
+test_exhaustivo_n3_todas_las_funciones (tests.test_simplificador.TestQM.test_exhaustivo_n3_todas_las_funciones)
+Las 256 funciones de 3 variables: SOP y POS equivalentes y minimas frente a fuerza bruta. ... ok
+test_paridad_irreducible (tests.test_simplificador.TestQM.test_paridad_irreducible) ... ok
+test_tautologia_contradiccion (tests.test_simplificador.TestQM.test_tautologia_contradiccion) ... ok
+test_toroidal (tests.test_simplificador.TestQM.test_toroidal) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.229s
+
+OK

@@ -1,0 +1,6 @@
+n,instancias,t_medio_ms,t_desv_ms,t_max_ms,primos_medio,primos_max_aleatorio,primos_max_busqueda,t_peor_busqueda_ms,primos_paridad,t_paridad_ms,frac_petrick,todos_exactos,cota_3n,cota_3n_sobre_n,esenciales_medio
+2,200,0.0072,0.0056,0.0547,1.11,2,2,0.0074,2,0.0109,0.0,True,9,4.5,1.11
+3,200,0.0167,0.0127,0.0928,2.25,6,6,0.0789,4,0.0174,0.09,True,27,9.0,1.97
+4,200,0.06,0.121,1.2245,4.63,12,13,0.8205,8,0.0322,0.37,True,81,20.2,2.96
+5,150,0.6348,4.6719,57.0204,10.04,20,32,687.1135,16,0.0803,0.66,True,243,48.6,4.63
+6,100,64.2066,206.6691,1611.1414,22.2,40,84,22557.1587,32,0.2225,0.91,True,729,121.5,6.56

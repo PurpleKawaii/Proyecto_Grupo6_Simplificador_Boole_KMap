@@ -1,0 +1,17 @@
+== CASOS ==
+Caso  1 n=3 SOP=AB + C | lit 15->3 | comp 9->2 | valid=True/True | 0.024 ms
+Caso  2 n=4 SOP=B'D' + BD | lit 32->4 | comp 13->5 | valid=True/True | 0.042 ms
+Caso  3 n=4 SOP=A'B' + CD | lit 20->4 | comp 9->5 | valid=True/True | 0.075 ms
+Caso  4 n=3 SOP=1 | lit 24->0 | comp 12->0 | valid=True/True | 0.027 ms
+Caso  5 n=3 SOP=0 | lit 24->0 | comp 12->0 | valid=True/True | 0.038 ms
+Caso  6 n=4 SOP=A'B'C'D + A'B'CD' + A'BC'D' + A'BCD + AB'C'D' + AB'CD + ABC' | lit 32->32 | comp 13->13 | valid=True/True | 0.045 ms
+Caso  7 n=3 SOP=A'B' + AC + BC' | lit 18->6 | comp 10->7 | valid=True/True | 0.206 ms
+Caso 8a n=5 SOP=A'B'CD + A'BC'DE + AB'C'D' + AC'DE' + AD'E + B'CDE + BCD' | lit 70->27 | comp 20->13 | valid=True/True | 0.253 ms
+Caso 8b n=6 SOP=A'B'C'D'E + A'B'C'DF' + A'B'CD'F' + A'BCE'F' + A'BD'E'F' + A | lit 174->66 | comp 36->21 | valid=True/True | 1.178 ms
+== BENCHMARK ==
+{'n': 2, 'instancias': 200, 't_medio_ms': 0.0072, 't_desv_ms': 0.0056, 't_max_ms': 0.0547, 'primos_medio': 1.11, 'primos_max_aleatorio': 2, 'primos_max_busqueda': 2, 't_peor_busqueda_ms': 0.0074, 'primos_paridad': 2, 't_paridad_ms': 0.0109, 'frac_petrick': 0.0, 'todos_exactos': True, 'cota_3n': 9, 'cota_3n_sobre_n': 4.5, 'esenciales_medio': 1.11}
+{'n': 3, 'instancias': 200, 't_medio_ms': 0.0167, 't_desv_ms': 0.0127, 't_max_ms': 0.0928, 'primos_medio': 2.25, 'primos_max_aleatorio': 6, 'primos_max_busqueda': 6, 't_peor_busqueda_ms': 0.0789, 'primos_paridad': 4, 't_paridad_ms': 0.0174, 'frac_petrick': 0.09, 'todos_exactos': True, 'cota_3n': 27, 'cota_3n_sobre_n': 9.0, 'esenciales_medio': 1.97}
+{'n': 4, 'instancias': 200, 't_medio_ms': 0.06, 't_desv_ms': 0.121, 't_max_ms': 1.2245, 'primos_medio': 4.63, 'primos_max_aleatorio': 12, 'primos_max_busqueda': 13, 't_peor_busqueda_ms': 0.8205, 'primos_paridad': 8, 't_paridad_ms': 0.0322, 'frac_petrick': 0.37, 'todos_exactos': True, 'cota_3n': 81, 'cota_3n_sobre_n': 20.2, 'esenciales_medio': 2.96}
+{'n': 5, 'instancias': 150, 't_medio_ms': 0.6348, 't_desv_ms': 4.6719, 't_max_ms': 57.0204, 'primos_medio': 10.04, 'primos_max_aleatorio': 20, 'primos_max_busqueda': 32, 't_peor_busqueda_ms': 687.1135, 'primos_paridad': 16, 't_paridad_ms': 0.0803, 'frac_petrick': 0.66, 'todos_exactos': True, 'cota_3n': 243, 'cota_3n_sobre_n': 48.6, 'esenciales_medio': 4.63}
+{'n': 6, 'instancias': 100, 't_medio_ms': 64.2066, 't_desv_ms': 206.6691, 't_max_ms': 1611.1414, 'primos_medio': 22.2, 'primos_max_aleatorio': 40, 'primos_max_busqueda': 84, 't_peor_busqueda_ms': 22557.1587, 'primos_paridad': 32, 't_paridad_ms': 0.2225, 'frac_petrick': 0.91, 'todos_exactos': True, 'cota_3n': 729, 'cota_3n_sobre_n': 121.5, 'esenciales_medio': 6.56}
+Listo en 124.2 s. Figuras en /home/claude/Proyecto_Grupo06_Simplificador_Boole_KMap/figuras

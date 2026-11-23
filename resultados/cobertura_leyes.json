@@ -1,0 +1,63 @@
+[
+ {
+  "expr": "A'B'C + A'BC + AB'C + ABC' + ABC",
+  "leyes": [
+   "Idempotencia",
+   "Adyacencia"
+  ],
+  "resultado": "AB + C",
+  "pasos": 9
+ },
+ {
+  "expr": "(A + B)'(C ⊕ D) + AB'",
+  "leyes": [
+   "De Morgan",
+   "Asociativa",
+   "Definición de ⊕",
+   "Distributiva"
+  ],
+  "resultado": "A'B'CD' + A'B'C'D + AB'",
+  "pasos": 7
+ },
+ {
+  "expr": "A(A' + B) + 0 + B·1 + (C')'C",
+  "leyes": [
+   "Identidad",
+   "Distributiva",
+   "Asociativa",
+   "Doble negación",
+   "Conmutativa",
+   "Complemento",
+   "Idempotencia",
+   "Absorción"
+  ],
+  "resultado": "B + C",
+  "pasos": 9
+ },
+ {
+  "expr": "AB + A'C + BC",
+  "leyes": [
+   "Consenso"
+  ],
+  "resultado": "AB + A'C",
+  "pasos": 1
+ },
+ {
+  "expr": "A + 1",
+  "leyes": [
+   "Nulidad"
+  ],
+  "resultado": "1",
+  "pasos": 2
+ },
+ {
+  "expr": "(AB)''+ A·0",
+  "leyes": [
+   "Doble negación",
+   "Nulidad",
+   "Identidad"
+  ],
+  "resultado": "AB",
+  "pasos": 3
+ }
+]
